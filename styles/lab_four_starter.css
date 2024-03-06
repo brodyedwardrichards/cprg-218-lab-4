@@ -155,23 +155,24 @@ footer {
   color: white;
 }
 
-a:link {
-  text-decoration: red;
-}
-
-a:visited {
-  text-decoration: blue;
-}
-
-a:hover {
-  text-decoration: green;
-}
-
-a:active {
-  text-decoration: yellow;
-}
 
 a {
   color: white;
   font-weight: bold;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1210px) {
+  .footer-container {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+  }
+  
+  .footer-contents-one, .footer-contents-two {
+      margin: 20px;
+  }
+  .footer-contents-three {
+      margin: 0 20px;
+  }
 }
