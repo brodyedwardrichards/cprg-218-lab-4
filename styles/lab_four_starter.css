@@ -7,7 +7,7 @@ body, html {
 /* Hero Image */
 
 .hero-container {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/space.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/space.jpg);
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -52,7 +52,7 @@ h1 {
 }
 
 .container-picture {
-  background-image: url(./assets/astronaut.jpg);
+  background-image: url(../assets/astronaut.jpg);
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
